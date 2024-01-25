@@ -1,0 +1,35 @@
+.leftNav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    margin: 20px 0 50px 50px;
+
+    ul {
+        list-style: none;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 20px;
+        }
+    }
+}
+
+.rightNav {
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: 50px;
+    margin: 20px 50px 50px 0;
+    text-align: start;
+    
+
+    a {
+        writing-mode: vertical-lr; 
+        text-orientation: sideways; 
+        letter-spacing: 5px;
+    }
+}

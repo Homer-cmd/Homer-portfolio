@@ -1,0 +1,43 @@
+.hero {
+    height: calc(100vh - 100px);
+    padding: 20px 0;
+
+    .hero-content {
+        width: 100%;
+
+        h2 {
+           font-weight: normal;
+           margin: 0 0 15px 4px;
+        }
+
+        h1 {
+            font-size: 90px;
+            color: var(--teriary-cl);
+        }
+
+        h3 {
+            font-size: 70px;
+            color: var(--teriary-cl);
+        }  
+        
+        p {
+            margin: 20px 0 0 4px;
+        };
+    }
+    
+    .buttons {
+        margin: 40px 0 0 4px;
+
+        button {
+            font-size: 18px;
+        }
+    }
+
+    .arrow {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
